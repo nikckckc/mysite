@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #222222;
+    cursor: default;
+}
+
+.form{
+    width: 70%;
+    background: #222222;
+    color: white;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.7);
+    margin: 50px auto;
+}
+
+.form-header {
+    height: 50px;
+    background-color: #65daff;
+    text-align: center;
+    position: relative;
+}
+.back-button {
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+}
+.back-button:hover{
+    background-color: grey;
+}
+.back-button:active{
+    background-color: black;
+    color: white;
+}
+.form-body {
+    padding: 30px;
+}
+.first-name,
+.second-name {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    width: 100%;
+    outline: none;
+}
+
+.input-wrapper{
+    margin: 30px 0;
+}
+.male-radio{
+    margin-right: 10px;
+}
+.female-radio{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.checkbox-age{
+    margin-right: 10px;
+}
+.gender {
+    margin-top: 50px;
+    padding: 10px;
+}
+.comment {
+    width: 100%;
+    background: none;
+    max-height: 200px;
+    resize: none;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+}
+.submit {
+    display: block;
+    background: linear-gradient(45deg,#65dafe,#70ffcb) ;
+    padding: 20px 80px;
+    width: fit-content;
+    margin: 10px auto;
+    border: none;
+    color: white;
+    transition: 1s;
+}
+.submit:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(-45deg,#65dafe,#70ffcb);
+}
+.nickname-fieldset{
+    padding: 30px;
+}
