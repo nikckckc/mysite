@@ -186,6 +186,10 @@ body {
     text-align: center;
 }
 
+.mobile-screen{
+    display: none;
+}
+
 .join {
     text-align: center;
 }
@@ -226,4 +230,75 @@ body {
     color: white;
     text-decoration: none;
     padding: 15px 50px;
+}
+
+@media(max-width:768px){
+    .nav-menu{
+        height: fit-content;
+        line-height: 40px;
+        position: relative;
+    }
+    
+    .nav-item{
+        display: block;
+    }
+
+    .navigation{
+        float: none;
+    }
+
+    .header-title{
+        font-size: 50px;
+    }
+
+    .header-content{
+        position: relative;
+        transform: none;
+    }
+
+    .header-subtitle{
+        font-size: 25px;
+    }
+
+    .site-header{
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .header-button{
+        padding: 10px 40px;
+    }
+
+    .about-card-img{
+        height: 50px;
+    }
+
+    .about-card-text{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .games-card-content{
+        width: 100%;
+    }
+
+    .game-card-img{
+        width: 100%;
+    }
+
+    .mobile-screen{
+        display: block;
+    }
+
+    .big-screen{
+        display: none;
+    }
+
+    .join-link-left{
+        width: 100%;
+    }
+    
+    .join-link-right{
+        width: 100%;
+    }
 }
